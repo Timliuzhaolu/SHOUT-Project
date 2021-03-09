@@ -22,7 +22,8 @@ The script, run_mlm.py modifies the behaviour of language model training from th
 
 Example code to run Masked Language Modeling with a Longformer model and a dataset in CSV file, similar to that used in the thesis, can be found below.
 
-```python run_mlm.py \
+```
+python run_mlm.py \
     --model_name_or_path "MaskedLM/longformer" \
     --tokenizer_name "MaskedLM/longformer" \
     --train_file "encoded_conversations.csv" \
@@ -39,8 +40,8 @@ Example code to run Masked Language Modeling with a Longformer model and a datas
     --save_steps 2000
 ```
 
-## Preprocessings
-The directory `Preprocessings/*` consists of all the data preprocessings of the Shout dataset used in the thesis. 
+## Preprocessing
+The directory `Preprocessing/*` consists of all the data preprocessings of the Shout dataset used in the thesis. 
 - `messages_labels_merge`: raw text and annotaions - merging annotations with raw conversations
 - `context_messages.ipynb`: conversation stage - inclusion of local context
 - `behaviour_keys.ipynb`: behaviour key - creation of one-hot encodings
@@ -48,8 +49,8 @@ The directory `Preprocessings/*` consists of all the data preprocessings of the 
 
 Also modifications to the Longformer tokenizer are specified in `customise_tokenizer.ipynb`.
 
-## Strategies
-The directory `Preprocessings/*` consists of different strategies implemented to improve model performance. Details can be found in `Data_augmentation.ipynb`, `NER_dataset.ipynb` and `Tree_framework.ipynb`.
+## Strategy
+The directory `Strategy/*` consists of different strategies implemented to improve model performance. Details can be found in `Data_augmentation.ipynb`, `NER_dataset.ipynb` and `Tree_framework.ipynb`.
 
 
 ## Participation Bias AC-MCC
