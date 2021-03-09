@@ -16,7 +16,7 @@
 Optional:
 - wandb 0.10.12 (for logging and model tracking)
 
-## (Masked) Language Model Training
+## Masked Language Model Training
 
 The script, run_mlm.py modifies the behaviour of language model training from the `transformers` library.
 
@@ -52,6 +52,11 @@ Also modifications to the Longformer tokenizer are specified in `customise_token
 ## Strategy
 The directory `Strategies/*` consists of different strategies implemented to improve model performance. Details can be found in `Data_augmentation.ipynb`, `NER_dataset.ipynb` and `Tree_framework.ipynb`.
 
+## Model Training
+Models can be trained using `train.py` and hyperparameter selection can be performed by `param_tuning.py`.
+
+## Word Cloud
+Word clouds for converstation stages and texter demographics can be generated in `wordcloud_generate.py` by the significant words for corresponding model detected by LIME.
 
 ## Participation Bias AC-MCC
 Library developed by the former Master student Daniel Cahn can be found in `posterior.py` for applying AC-MCC to detect and reverse participation biases discussed in the report. 
