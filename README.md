@@ -41,7 +41,7 @@ python run_mlm.py \
 ```
 
 ## Preprocessing
-The directory `Preprocessing/*` consists of all the data preprocessings of the Shout dataset used in the thesis. 
+The directory `Preprocessings/*` consists of all the data preprocessings of the Shout dataset used in the thesis. 
 - `messages_labels_merge`: raw text and annotaions - merging annotations with raw conversations
 - `context_messages.ipynb`: conversation stage - inclusion of local context
 - `behaviour_keys.ipynb`: behaviour key - creation of one-hot encodings
@@ -50,7 +50,7 @@ The directory `Preprocessing/*` consists of all the data preprocessings of the S
 Also modifications to the Longformer tokenizer are specified in `customise_tokenizer.ipynb`.
 
 ## Strategy
-The directory `Strategy/*` consists of different strategies implemented to improve model performance. Details can be found in `Data_augmentation.ipynb`, `NER_dataset.ipynb` and `Tree_framework.ipynb`.
+The directory `Strategies/*` consists of different strategies implemented to improve model performance. Details can be found in `Data_augmentation.ipynb`, `NER_dataset.ipynb` and `Tree_framework.ipynb`.
 
 
 ## Participation Bias AC-MCC
