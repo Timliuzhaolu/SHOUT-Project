@@ -1,4 +1,4 @@
-# [Listening to mental health crisis needs at scale: using Natural Language Processing to understand and evaluate a mental health crisis text messaging service](https://www.frontiersin.org/articles/10.3389/fdgth.2021.779091/full)
+# Code for: Listening to mental health crisis needs at scale: using Natural Language Processing to understand and evaluate a mental health crisis text messaging service. [Paper](https://www.frontiersin.org/articles/10.3389/fdgth.2021.779091/full)
 
 ## Requirements
 - python 3.9.1
