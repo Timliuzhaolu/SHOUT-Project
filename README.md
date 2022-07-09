@@ -1,4 +1,6 @@
-# Listening to mental health crisis needs at scale: using Natural Language Processing to understand and evaluate a mental health crisis text messaging service. [This repository contains Python implementation of transformer-based NLP methods for mental health text as described here](https://www.frontiersin.org/articles/10.3389/fdgth.2021.779091/full)
+# Listening to mental health crisis needs at scale: using Natural Language Processing to understand and evaluate a mental health crisis text messaging service. 
+====
+This repository contains Python implementation of transformer-based NLP methods for mental health text as described [here](https://www.frontiersin.org/articles/10.3389/fdgth.2021.779091/full)
 
 ## Requirements
 - python 3.9.1
